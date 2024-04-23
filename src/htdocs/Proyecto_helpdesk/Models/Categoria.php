@@ -1,5 +1,5 @@
 <?php
-
+// agregando comentario de bonifacio
 class Categoria extends Conectar{
     public function get_categoria(){
         $conectar= parent::conexion();
