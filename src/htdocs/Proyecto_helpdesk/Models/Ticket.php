@@ -1,6 +1,7 @@
 <?php
 
 class Ticket extends Conectar{
+    // new comment
     public function insert_ticket($usu_id,$cat_id,$tick_titulo,$tick_descrip){
         $conectar= parent::conexion();
         parent::set_names();
