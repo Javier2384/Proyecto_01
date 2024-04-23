@@ -1,5 +1,6 @@
 <?php
 // agregando comentario de bonifacio
+// agregagar comentario de juan
 class Categoria extends Conectar{
     public function get_categoria(){
         $conectar= parent::conexion();
